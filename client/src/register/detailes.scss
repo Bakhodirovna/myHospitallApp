@@ -1,0 +1,24 @@
+.profile{
+
+
+    &__top{
+        background-color: #17a2b8 ;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        &__title{
+            padding: 0;
+            margin: 0;
+            font-size: 72px;
+            line-height: 1.2;
+            font-family: 'Handlee', cursive;
+           
+        }
+    }
+  
+}

@@ -1,0 +1,50 @@
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  background-color: #00b5ad;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.header-message {
+  margin: 0;
+}
+
+.emergency-line {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+}
+.nav-links a:hover {
+  color: #007bff;
+}
+
+.login a {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.login a:hover {
+  background-color: #0056b3;
+}/*# sourceMappingURL=header.css.map */

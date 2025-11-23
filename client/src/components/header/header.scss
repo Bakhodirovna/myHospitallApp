@@ -1,0 +1,119 @@
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    background-color: rgb(7, 152, 188);
+    color: #fff;
+    padding: 10px 105px;
+    align-items: center;
+  }
+  
+  .header-message {
+    margin: 0;
+  }
+
+  .emergency-line {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    &>img{
+        height: 40px;
+    }
+  }
+  
+  .header {
+    position: sticky;
+    z-index: 999;
+  top: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .logo img {
+    max-width: 150px;
+  }
+  
+  .nav-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    &:hover {
+      color: rgb(7, 152, 188);
+    }
+  }
+  
+  .login a {
+    border:1px solid rgb(7, 152, 188);
+    background-color: rgb(7, 152, 188);
+    color: #fff;
+    padding: 15px 15px;
+    border-radius: 100px;
+    text-decoration: none;
+    &:hover {
+    color: rgb(7, 152, 188);
+    background-color: #fff;
+    border:1px solid rgb(7, 152, 188);
+    }
+  }
+  .logo{
+    text-decoration: none;
+  }
+
+/* DESKTOP */
+// .nav-links, .login {
+//   display: flex;
+//   gap: 20px;
+// }
+
+/* BURGER ICON – DESKTOPDA YO‘Q */
+.burger {
+  display: none;
+}
+
+/* MOBILE VERSION */
+@media (max-width: 768px) {
+
+  .burger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .burger span {
+    width: 25px;
+    height: 3px;
+    background: black;
+  }
+
+  /* MENU YOPILGANDA – KO‘RINMAYDI */
+  .nav-links,
+  .login {
+    display: none;
+  }
+
+  /* MENU OCHILGANDA – KO‘RINADI */
+  .nav-links.open,
+  .login.open {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: white;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 999;
+    text-align: center;
+    border-top: 1px solid #ddd;
+  }
+}
+  

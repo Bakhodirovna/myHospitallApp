@@ -1,0 +1,192 @@
+.doctors{
+  background-color: #f1f7fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__top{
+        // background-color: #17a2b8 ;
+        background-image: url(../top.jpg);
+        background-position: 100%;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: center;
+        color: rgb(45, 6, 112);
+        &__txt{
+            padding-left: 200px;
+        }
+        &__title{
+            padding: 0;
+            margin: 0;
+            font-size: 72px;
+            line-height: 1.2;
+            font-family: 'Handlee', cursive;
+            &__links{
+                display: flex;
+                align-items: center;
+
+                &>p{
+                    margin-left: 5px;
+                }
+                &__link{
+                    text-decoration: none;
+                    color: rgb(45, 6, 112);
+                    font-family: "Nunito", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 1.5;    
+                    &:nth-child(1):hover{
+                        text-decoration: underline;
+                    }              
+                }
+            }
+        }
+    }
+    &__bottom{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin: 40px 0;
+      color: #00394f;
+      &__img{
+         background-image: url(../images/doctors.jpg);
+         background-position: 100%;
+         background-size: cover;
+         height: 640px;
+         width: 100%;
+         border-radius: 20px;
+      }
+      &__title{
+        padding: 0;
+        margin: 0;
+        font-size: 42px;
+        line-height: 1.2;
+        font-family: 'Handlee', cursive;  
+
+      }
+      &__filter__buttons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        button+button{
+          margin-left: 10px;
+        }
+        button {
+          color: rgb(7, 152, 188);
+          background-color: #fff;
+          border:1px solid rgb(7, 152, 188);
+          padding: 10px 15px;
+          border-radius: 10px;
+          text-decoration: none;
+          font-family: "Nunito", sans-serif;
+          font-size: 15px;
+          // margin-left: 10px;
+          &:hover {
+            border:1px solid rgb(7, 152, 188);
+            background-color: rgb(7, 152, 188);
+            color: #fff;
+          cursor: pointer;
+          }
+       
+      
+          &:active {
+            border:1px solid rgb(9, 138, 167);
+            background-color: rgb(9, 138, 167);
+          }
+          &:focus{
+            border:1px solid rgb(7, 152, 188);
+            background-color: rgb(7, 152, 188);
+            color: #fff;
+          }
+          
+        }
+      }
+      &__container {
+          display: grid;
+          grid-template:auto auto auto  / auto auto auto auto ;
+          &__card {
+            width: 250px;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0 0 10px #ccc;
+            text-align: center;
+            border-radius: 10px;
+            background-color: white;
+            h3{
+              padding: 0;
+              margin: 0;
+              font-size: 22px;
+              line-height: 1.2;
+              font-family: 'Handlee', cursive; 
+              margin-top: 20px; 
+            }
+            p{
+              font-family: "Nunito", sans-serif;
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 1.5;
+              padding: 0;  
+            }
+
+            &__txt1{
+                text-decoration: none;
+                color: rgb(124, 48, 255);
+                     
+            }
+            &__hours{
+              margin: 0;
+              padding: 0;
+              display: flex;
+              align-items: center;
+              justify-content: space-around;
+
+              p{
+                margin: 0;
+                font-size: 15px;
+              }
+            }
+            &__txt2{
+            }
+            &__txt3{
+
+            }
+            img {
+              width: 250px;
+              height: 250px;
+              border-radius: 50%;
+              object-fit:cover;
+              background-color: #f1f7fa;
+            }
+          
+            button {
+              color: rgb(7, 152, 188);
+              background-color: #fff;
+              border:1px solid rgb(7, 152, 188);
+              padding: 10px 15px;
+              border-radius: 10px;
+              text-decoration: none;
+              font-family: "Nunito", sans-serif;
+              font-size: 15px;
+              margin-top: 20px;
+              &:hover {
+                border:1px solid rgb(7, 152, 188);
+                background-color: rgb(7, 152, 188);
+                color: #fff;
+              cursor: pointer;
+              }
+            }
+          }
+        }
+    }
+   
+      
+      
+      
+      
+    
+}

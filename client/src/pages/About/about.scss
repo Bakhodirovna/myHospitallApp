@@ -1,0 +1,365 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__top{
+        // background-color: #17a2b8 ;
+        background-image: url(../top.jpg);
+        background-position: 100%;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: center;
+        color: rgb(45, 6, 112);
+        &__txt{
+            padding-left: 200px;
+        }
+        &__title{
+            padding: 0;
+            margin: 0;
+            font-size: 72px;
+            line-height: 1.2;
+            font-family: 'Handlee', cursive;
+            &__links{
+                display: flex;
+                align-items: center;
+
+                &>p{
+                    margin-left: 5px;
+                }
+                &__link{
+                    text-decoration: none;
+                    color: rgb(45, 6, 112);
+                    font-family: "Nunito", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 1.5;    
+                    &:nth-child(1):hover{
+                        text-decoration: underline;
+                    }              
+                }
+            }
+        }
+    }
+    &__box{
+
+        &__section1{
+            margin-top: 70px;
+            display: flex;
+            // justify-content: space-between;
+            align-items: center;
+            h2{
+                font-family: 'Handlee', cursive;
+                color: #00394f;
+                padding: 0;
+                margin: 0;
+                font-size: 40px;
+                line-height: 1.2; 
+            }
+            p{
+                display: flex;
+                flex-direction: column;
+                color: #666666;
+                font-family: "Nunito", sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.5;
+            }
+            &__left{
+                padding-right: 40px;
+                border-right: 3px solid  #17a2b8;
+                
+                img{
+                    width: 500px;
+                    height: fit-content;
+                    border-radius: 5px;
+                }
+            }
+            &__right{
+                margin-left: 40px;
+                background-color: #f8f9fa ;
+                padding: 20px;
+                border-radius: 5px;
+                height: fit-content;
+            }
+            &__title2{
+                width: 700px;
+            }
+        
+            &__desc2{
+                    width: 750px;
+
+            }
+            &__list{
+                padding: 0;
+                list-style: none;
+                display: grid;
+                grid-template: auto auto auto /  auto auto;
+                gap: 30px 15px;
+                &__item{
+                    padding-left: 100px;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    color: #666666;
+                    font-family: "Nunito", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    width: 235px; 
+                    &__title{
+                        font-family: 'Handlee', cursive;
+                        color: #00394f;
+                        font-weight: 700;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+        &__section2{
+            margin:70px 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            
+            &__left{
+                
+                padding-right: 10px;
+                border-right: 3px solid  #17a2b8;
+
+                &__txt{
+                    padding-left: 30px;
+                    margin-top: 20px;
+                }
+                h2{
+                    font-family: 'Handlee', cursive;
+                    color: #00394f;
+                    padding: 0;
+                    margin: 0;
+                    font-size: 40px;
+                    line-height: 1.2; 
+                }
+                h4{
+                    font-family: 'Handlee', cursive;
+                    color: #00394f;
+                    padding: 0;
+                    margin: 0;
+                    font-size: 25px;
+                    line-height: 1.2;  
+                    display: flex;
+
+
+                }
+                p{
+                    display: flex;
+                    flex-direction: column;
+                    color: #666666;
+                    font-family: "Nunito", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    width: 500px;
+                    margin: 0;
+                    margin-top: 10px;
+
+                }
+                
+            }
+            &__right{
+                img{
+                    width:350px;
+                    height: 220px;
+                    border-radius: 5px;
+                    
+                }
+                margin-top: -80px;
+                display: grid;
+                grid-template:120px 120px/auto auto ;
+                gap:120px  15px;
+                margin-left: 40px;
+            }
+
+        }
+        // &__section2{
+        //     background-color: white;
+        //     margin-top: 70px;
+        //     &__list{
+        //         padding: 0;
+        //         list-style: none;
+        //         display: grid;
+        //         grid-template:auto auto / auto auto auto ;
+        //         gap: 30px 60px;
+        //     }
+        //     &__info{
+        //         display: flex;
+        //         align-items: start;
+        //         background-color:rgb(248, 249, 250);
+        //         border-radius: 5px;
+        //         border: 0.8px solid rgb(222, 226, 230);
+        //         box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 4px 0px;
+        //         padding:20px 30px;
+        //         &__desc{
+        //             margin-left: 20px;
+        //         }
+        //         &__img{
+        //             width: 70px;
+        //             height: 70px;
+    
+        //         }
+        //         &__title{
+        //             font-family: 'Handlee', cursive;
+        //             color: #00394F;
+        //             font-size: 24px;
+        //             font-weight: 700;
+        //             margin: 0;
+        //         }
+        //         &__txt{
+        //             margin: 0;
+        //             margin-top: 15px;
+        //             font-family: 'Nunito ', sans-serif;
+        //             font-size: 16px;
+        //             color: #666666;
+        //             width: 225px;
+        //             line-height: 1.30;
+        //         }
+        //     }
+    
+        // }
+        // &__section3{
+        //     margin: 80px 0;
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: space-evenly;
+        //     &__img{
+        //         border-radius: 5px;
+        //     }
+        //     &__info{
+        //         // margin-left: 30px;
+        //         &__subtitle{
+        //             margin: 0;
+        //             position: relative;
+        //             width: 200px;
+        //             color: #17a2b8;
+        //             line-height: 1.5;
+        //             font-size: 16px;
+        //             letter-spacing: 1px;
+        //             &::after{
+        //                 position: absolute;
+        //                 content: "";
+        //                 top: 8px;
+        //                 right: -10px;
+        //                 width: 50px;
+        //                 height: 2.5px;
+        //                 background: #17a2b8;
+        //             }
+        //         }
+        //         &__title{
+        //             margin:0 ;
+        //             margin-top: 16px;
+        //             font-family: "Handlee", cursive;
+        //             font-weight: bold;
+        //             line-height: 1.2;
+        //             color: #00394f;   
+        //             font-size: 40px;             
+        //         }
+        //         &__txt{
+        //             margin: 0;
+        //             margin-top: 30px;
+        //             width: 634px;
+        //             font-family: "Nunito", sans-serif;
+        //             font-size: 16px;
+        //             font-weight: 400;
+        //             line-height: 1.5;
+        //             color: #666666;
+        //             text-align: left;                
+        //         }
+        //         &__box{
+        //             margin-top: 16px;
+        //             display: flex;
+        //             &__img{
+        //                 border-radius: 5px;
+        //             }
+    
+        //         }
+        //         &__list{
+        //             display: flex;
+        //             flex-direction: column;
+        //             justify-content: space-between;
+        //             list-style: none;
+        //             margin: 0;
+        //             padding: 0;
+        //             &__item{
+        //                 font-family: "Nunito", sans-serif;
+        //                 font-size: 16px;
+        //                 font-weight: 400;
+        //                 color: #666666;                    
+        //                 position: relative;
+        //                 margin-left: 30px;
+        //                 display: flex;
+        //                 align-items: center;
+        //                 padding: 10px 0;
+        //                 border-bottom: 1px solid #dee2e6 ;
+        //                 width: 380px;
+        //                 padding-left: 30px;
+        //                 &:nth-child(1){
+        //                     border-top: 1px solid #dee2e6 ;
+        //                 }
+        //                 &::before{
+        //                     content: "";
+        //                     width: 16px;
+        //                     height: 16px;
+        //                     background: url(../images/check.png);
+        //                     background-position: center;
+        //                     background-size: 100% 100%;
+        //                     position: absolute;
+        //                     left: 0;
+        //                     top: 10px;                        
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+        // ExpandableSection.scss
+        // .accordion {
+        //     .accordion-item {
+        //       margin-bottom: 10px;
+          
+        //       .accordion-title {
+        //         font-family: 'Handlee', cursive;
+        //         color: #00394f;
+        //         padding: 10px 20px;
+        //         width: 100%;
+        //         text-align: left;
+        //         border: none;
+        //         outline: none;
+        //         cursor: pointer;
+        //         position: relative;
+          
+        //         .icon {
+        //           position: absolute;
+        //           right: 20px;
+        //           transition: transform 0.3s ease;
+        //         }
+          
+        //         .rotate {
+        //           transform: rotate(180deg);
+        //         }
+        //       }
+          
+        //       .accordion-content {
+        //         background-color: white;
+        //         overflow: hidden;
+        //         padding: 10px 20px;
+        //         border: 1px solid #007bff;
+        //       }
+        //     }
+        //   }
+          
+
+  
+    }
+}
