@@ -8,6 +8,9 @@ import facebook from "./images/facebook-app-symbol.png";
 import linkedin from "./images/linkedin (1).png";
 import insta from "./images/instagram.png";
 
+import { API_URL } from "../../config"; 
+// tepa import qo‘shildi01.12.2025
+
 function DoctorDetail({ match }) {
     const { id } = useParams();
     const [doctor, setDoctor] = useState(null);
@@ -15,7 +18,7 @@ function DoctorDetail({ match }) {
      useEffect(() => {
     const fetchDoctor = async () => {
       try {
-        const result = await axios(`http://localhost:6060/api/doctors/${id}`);
+        const result = await axios(`h${API_URL}/api/doctors/${id}`);
 
         setDoctor(result.data);
       } catch (error) {

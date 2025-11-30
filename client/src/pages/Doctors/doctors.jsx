@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import styles from './doctors.scss';
 import {Link, NavLink} from 'react-router-dom'
 import axios from 'axios';
-
+import { API_URL } from "../../config"; 
+// tepa import qo‘shildi01.12.2025
 
 const Doctors = () => {
 
@@ -11,7 +12,7 @@ const Doctors = () => {
   
     useEffect(() => {
       const fetchData = async () => {
-        const result = await axios('http://localhost:6060/api/doctors');
+        const result = await axios(`${API_URL}/api/doctors`);
 
 
         setDoctors(result.data);

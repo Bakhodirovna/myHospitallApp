@@ -28,13 +28,20 @@ import axios from 'axios';
 import styles from './services.scss';
 import { Link } from 'react-router-dom';
 
+import { API_URL } from "../../config"; 
+// tepa import qo‘shildi01.12.2025
+
 const Services = () => {
   const [services, setServices] = useState([]);
   const [selectedService, setSelectedService] = useState(null);
 
   useEffect(() => {
     const fetchServices = async () => {
-      const result = await axios.get('http://localhost:6060/api/services');
+      // const result = await axios.get('http://localhost:6060/api/services');
+      axios.get(`${API_URL}/api/services`);  
+// localhost o‘chirilib API_URL qo‘shildi01.12.2025
+      
+
       setServices(result.data);
       setSelectedService(result.data[0]); // Birinchi xizmatni tanlash
     };
