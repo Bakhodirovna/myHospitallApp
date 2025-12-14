@@ -203,18 +203,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
   
 
 
-      // { name: "Dr. Sirojiddin Rahmonov", specialization: "Stomatologiya", availableDays: "Dushanba-Chorshanba", workingHours: "09:00-18:00", imageUrl: "http://localhost:6060/images/doc1.jpg" },
-      // { name: "Dr. Madina Yusupova", specialization: "Ginekologiya", availableDays: "Seshanba-Juma", workingHours: "10:00-16:00", imageUrl: "http://localhost:6060/images/doc2.jpg" },
-      // { name: "Dr. Farruh Soatov", specialization: "Ko`z doktori", availableDays: "Dushanba-Juma", workingHours: "08:00-14:00", imageUrl: "http://localhost:6060/images/doc3.jpg" },
-      // { name: "Dr. Aliya Zokirova", specialization: "Kardiologiya", availableDays: "Dushanba-Juma", workingHours: "09:00-17:00", imageUrl: "http://localhost:6060/images/doc4.jpg" },
-      // { name: "Dr. Bekzod Karimov", specialization: "Ortopediya", availableDays: "Dushanba-Chorshanba", workingHours: "09:00-19:00", imageUrl: "http://localhost:6060/images/doc5.jpg" },
-      // { name: "Dr. Dilnoza Akramova", specialization: "Gastroenterologiya", availableDays: "Seshanba-Payshanba", workingHours: "10:00-15:00", imageUrl: "http://localhost:6060/images/doc6.jpg" },
-      // { name: "Dr. Jasur Ismoilov", specialization: "Nevrologiya", availableDays: "Chorshanba-Juma", workingHours: "08:00-17:00", imageUrl: "http://localhost:6060/images/doc9.jpg" },
-      // { name: "Dr. Lola Rashidova", specialization: "Umumiy amaliyot", availableDays: "Dushanba-Juma", workingHours: "09:00-18:00", imageUrl: "http://localhost:6060/images/doc8.jpg" },
-      // { name: "Dr. Timur Mirzaev", specialization: "Stomatologiya", availableDays: "Seshanba-Payshanba", workingHours: "09:00-18:00", imageUrl: "http://localhost:6060/images/doc10.jpg" },
-      // { name: "Dr. Nigina Karimova", specialization: "Ginekologiya", availableDays: "Dushanba-Juma", workingHours: "10:00-16:00", imageUrl: "http://localhost:6060/images/doc7.jpg" },
-      // { name: "Dr. Elina Gafurova", specialization: "Kardiologiya", availableDays: "Dushanba-Juma", workingHours: "09:00-17:00", imageUrl: "http://localhost:6060/images/doc12.jpg" },
-      // { name: "Dr. Aziz Nosirov", specialization: "Ortopediya", availableDays: "Dushanba-Chorshanba", workingHours: "09:00-19:00", imageUrl: "http://localhost:6060/images/doc11.png" }
+     
     ];
 
     Doctor.insertMany(doctorsData)

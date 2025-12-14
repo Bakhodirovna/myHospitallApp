@@ -37,9 +37,9 @@ const Services = () => {
 
   useEffect(() => {
     const fetchServices = async () => {
-      // const result = await axios.get('http://localhost:6060/api/services');
+     
       axios.get(`${API_URL}/api/services`);  
-// localhost o‘chirilib API_URL qo‘shildi01.12.2025
+
       
 
       setServices(result.data);
