@@ -13,7 +13,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
         specialization: "Kardiologiya",
         availableDays: "Dushanba-Juma",
         workingHours: "09:00-17:00",
-        imageUrl: "http://localhost:6060/images/doc4.jpg",
+        imageUrl: "http://myhospitalapp.onrender.com/images/doc4.jpg",
         education: [
             { year: 2009, degree: "MD Cardiology", institute: "Khorezm Medical Institute" }
         ],
@@ -37,7 +37,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
         specialization: "Ortopediya",
         availableDays: "Dushanba-Chorshanba",
         workingHours: "09:00-19:00",
-        imageUrl: "http://localhost:6060/images/doc5.jpg",
+        imageUrl: "http://myhospitalapp.onrender.com/images/doc5.jpg",
         education: [
             { year: 2007, degree: "MD Orthopedics", institute: "Fergana Medical Academy" }
         ],
@@ -61,7 +61,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
         specialization: "Gastroenterologiya",
         availableDays: "Seshanba-Payshanba",
         workingHours: "10:00-15:00",
-        imageUrl: "http://localhost:6060/images/doc6.jpg",
+        imageUrl: "http://myhospitalapp.onrender.com/images/doc6.jpg",
         education: [
             { year: 2008, degree: "MD Gastroenterology", institute: "Nukus Medical Institute" }
         ],
@@ -85,7 +85,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
         specialization: "Nevrologiya",
         availableDays: "Chorshanba-Juma",
         workingHours: "08:00-17:00",
-        imageUrl: "http://localhost:6060/images/doc9.jpg",
+        imageUrl: "http://myhospitalapp.onrender.com/images/doc9.jpg",
         education: [
             { year: 2010, degree: "MD Neurology", institute: "Tashkent State Medical University" }
         ],
@@ -109,7 +109,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
       specialization: "Umumiy amaliyot",
       availableDays: "Dushanba-Juma",
       workingHours: "09:00-18:00",
-      imageUrl: "http://localhost:6060/images/doc8.jpg",
+      imageUrl: "http://myhospitalapp.onrender.com/images/doc8.jpg",
       education: [
           { year: 2005, degree: "MD General Practice", institute: "Samarkand Medical Institute" }
       ],
@@ -133,7 +133,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
       specialization: "Stomatologiya",
       availableDays: "Seshanba-Payshanba",
       workingHours: "09:00-18:00",
-      imageUrl: "http://localhost:6060/images/doc10.jpg",
+      imageUrl: "http://myhospitalapp.onrender.com/images/doc10.jpg",
       education: [
           { year: 2006, degree: "DDS Dentistry", institute: "Bukhara Dental School" }
       ],
@@ -157,7 +157,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
       specialization: "Ginekologiya",
       availableDays: "Dushanba-Juma",
       workingHours: "10:00-16:00",
-      imageUrl: "http://localhost:6060/images/doc7.jpg",
+      imageUrl: "http://myhospitalapp.onrender.com/images/doc7.jpg",
       education: [
           { year: 2010, degree: "MD Obstetrics and Gynecology", institute: "Tashkent Medical Academy" }
       ],
@@ -181,7 +181,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
       specialization: "Kardiologiya",
       availableDays: "Dushanba-Juma",
       workingHours: "09:00-17:00",
-      imageUrl: "http://localhost:6060/images/doc12.jpg",
+      imageUrl: "http://myhospitalapp.onrender.com/images/doc12.jpg",
       education: [
           { year: 2008, degree: "MD Cardiology", institute: "Andijan State Medical Institute" }
       ],

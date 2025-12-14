@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Service = require('./models/Service');
+const Service = require('./models/service');
 require('dotenv').config();
 
 mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
@@ -18,7 +18,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
           { service: 'Tish rengen', price: '$50' },
           { service: 'Tish oqartirish', price: '$200' }
         ],
-        image: 'http://localhost:6060/images/dental.jpg'
+        image: 'http://myhospitalapp.onrender.com/images/dental.jpg'
       },
       {
         name: 'Ko`z doktori',
@@ -31,7 +31,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
           { service: 'Ko\'z ichidagi bosim o\'lchash', price: '$30' },
           { service: 'Ko\'z dori-darmonlari', price: '$25' }
         ],
-        image: 'http://localhost:6060/images/eye.jpg'
+        image: 'http://myhospitalapp.onrender.com/images/eye.jpg'
       },
       {
         name: 'Ginekologiya',
@@ -44,7 +44,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
           { service: 'Ginekologik operatsiyalar', price: '$500' },
           { service: 'Tahlillar', price: '$50' }
         ],
-        image: 'http://localhost:6060/images/gynecology.jpg'
+        image: 'http://myhospitalapp.onrender.com/images/gynecology.jpg'
       },
       {
         name: 'Kardiologiya',
@@ -57,7 +57,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
           { service: 'Yurak operatsiyalari', price: '$5000' },
           { service: 'Yurak dorilari', price: '$50' }
         ],
-        image: 'http://localhost:6060/images/cardiology.jpg'
+        image: 'http://myhospitalapp.onrender.com/images/cardiology.jpg'
       },
       {
         name: 'Ortopediya',
@@ -70,7 +70,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
           { service: 'Ortopedik maslahat', price: '$70' },
           { service: 'Ortopedik asbob-uskunalar', price: '$200' }
         ],
-        image: 'http://localhost:6060/images/orthopedics.jpg'
+        image: 'http://myhospitalapp.onrender.com/images/orthopedics.jpg'
       },
       {
         name: 'Gastroenterologiya',
@@ -83,7 +83,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
           { service: 'Oshqozon-ichak dorilari', price: '$50' },
           { service: 'Dietolog maslahat', price: '$100' }
         ],
-        image: 'http://localhost:6060/images/gastroenterology.jpg'
+        image: 'http://myhospitalapp.onrender.com/images/gastroenterology.jpg'
       },
       {
         name: 'Nevrologiya',
@@ -96,7 +96,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
           { service: 'Asab tizimi dorilari', price: '$50' },
           { service: 'Fizioterapiya', price: '$60' }
         ],
-        image: 'http://localhost:6060/images/neurology.jpg'
+        image: 'http://myhospitalapp.onrender.com/images/neurology.jpg'
       }
     ];
 
